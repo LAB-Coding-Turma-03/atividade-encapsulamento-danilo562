@@ -30,8 +30,8 @@ public class JavaSpringTemplateApplication {
 		carro.setAno(2010);
 		carro.setValor(10000.00);
 		
-		
-		System.out.println(carro.getCor());
+		System.out.println("Cor    Ano     Valor");
+		System.out.println(carro.imprimeTabela());
 	}
 
 }
